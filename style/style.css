@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "vazir_thin";
+    src: url(../src/fonts/Vazir-Thin-FD-WOL.woff2) format("woff2");
+}
+@font-face {
+    font-family: "vazir_medium";
+    src: url(../src/fonts/Vazir-Medium-FD-WOL.woff2) format("woff2");
+}
+@font-face {
+    font-family: "vazir_light";
+    src: url(../src/fonts/Vazir-Light-FD-WOL.woff2) format("woff2");
+}
+@font-face {
+    font-family: "vazir_bold";
+    src: url(../src/fonts/Vazir-Bold-FD-WOL.woff2) format("woff2");
+}
+
+* {
+    font-family: var(--font_medium);
+}
+
+:root {
+    --white_color: #ffffff;
+    --main_color: #5a189a;
+    --second_color: #7b2cbf;
+    --there_color: #9d4edd;
+    --Grey4_color: #102a42;
+    --Grey3_color: #617d98;
+    --Grey2_color: #9eb2c7;
+    --Grey1_color: #f1f5f8;
+    --font_medium:  "vazir_medium";
+    --font_medium:  "vazir_medium";
+    --transition: all 0.3s linear;
+    --light_shadow: 0 5px 15px rgba(0 ,0 ,0 ,0.1);
+    --dark_shadow: 0 5px 15px rgba(0 ,0 ,0 ,0.2);
+}
